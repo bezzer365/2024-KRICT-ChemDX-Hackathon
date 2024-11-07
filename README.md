@@ -1,3 +1,8 @@
 # Hackathon
 
-Code produced for Raman spectrum visulaisation and analysis contained in the Functions.pynb file
+Code produced for Raman spectrum visulaisation and analysis contained in the Functions.pynb file. 
+
+Backgroud_Fit - includes the workings for background fits for a single dataset to demostrate the developmet of the functions. 
+KRICT2024_Hackathon_Gaussian - includes the workings for constructing the peak finding and Gaussian fitting functions as well as integrated intensities. 
+
+The final notebook is the full code, with both functions and loops integrated to allow multiple datasets to be visualised and analysed and can be adapted accordingly. 
