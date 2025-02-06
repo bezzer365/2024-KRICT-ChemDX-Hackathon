@@ -4,7 +4,7 @@
 
 This project for the [2024 KRICT ChemDX Hackathon](https://gitlab.chemdx.org/global-network/2024-krict-chemdx-hackathon/-/wikis/home) hosted on the 6-8 November 2024 utilises datasets from the [Chemical Data Explorer (ChemDX)](https://www.chemdx.org/) database to develop visualisation tools and fitting functions for Raman spectra using intensity data.
 
-## Authors
+### Authors
 
 - Joshua Berry
 - Katerina Christofidou
