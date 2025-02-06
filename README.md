@@ -1,4 +1,9 @@
-# Hackathon
+# 2024 KRICT ChemDX Hackathon
+
+## Project Overview
+
+This project for the 2024 KRICT ChemDX Hackathon hosted on the 6-8 November 2024 utilises datasets from the Chemical Data Explorer (ChemDX) database to develop visualisation tools and fitting functions for Raman spectra using intensity data.
+
 
 Code produced for Raman spectrum visulaisation and analysis contained in the Functions.pynb file. 
 
