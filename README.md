@@ -11,6 +11,11 @@ This project for the [2024 KRICT ChemDX Hackathon](https://gitlab.chemdx.org/glo
 
 Material Science and Engineering Department, University of Sheffield, UK
 
+## Available Data
+
+The data is provided in the form of an .xlsx file [file](\intensity_data.xlsx)
+
+
 
 Code produced for Raman spectrum visulaisation and analysis contained in the Functions.pynb file. 
 
