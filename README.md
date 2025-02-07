@@ -29,6 +29,8 @@ First the samples are visualised individually and then stacked vertically to ena
 
 ![alt text](https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png)
 
+<img src="https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png" alt="Fitted Spectra" width="400" height="300">
+
 
 
 Code produced for Raman spectrum visulaisation and analysis contained in the Functions.pynb file. 
