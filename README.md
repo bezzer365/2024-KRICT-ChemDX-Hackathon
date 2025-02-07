@@ -2,40 +2,67 @@
 
 ## Project Overview
 
-This project for the [2024 KRICT ChemDX Hackathon](https://gitlab.chemdx.org/global-network/2024-krict-chemdx-hackathon/-/wikis/home) hosted on the 6-8 November 2024 utilises datasets from the [Chemical Data Explorer (ChemDX)](https://www.chemdx.org/) database to develop visualisation tools and fitting functions for Raman spectra using intensity data.
+This project was developed for the [2024 KRICT ChemDX Hackathon](https://gitlab.chemdx.org/global-network/2024-krict-chemdx-hackathon/-/wikis/home) hosted from the 6-8 November 2024. It utilises datasets from the [Chemical Data Explorer (ChemDX)](https://www.chemdx.org/) database to create visualisation tools and fitting functions for Raman spectra using intensity data.
 
 ### Authors
 
 - Joshua Berry
 - Katerina Christofidou
 
-Material Science and Engineering Department, University of Sheffield, UK
+_Material Science and Engineering Department, University of Sheffield, UK_
 
 ## Data
 
-The data is provided in the form of an .xlsx file `intensity_data.xlsx`, where the Raman shift is provided in cm<sup>-1</sup> and the intensity in arbitrary units for 39 different samples.
+The dataset is provided in an Excel .xlsx file `intensity_data.xlsx`, containing Raman spectra for 39 different samples. Each spectrum consists of:
+- Raman shift (in cm<sup>-1</sup>)
+- Intensity (in arbitrary units)
 
 ## Objectives
 
+This project aims to
 - Visualise indivdual spectra
-- Enable direct comparison by visualisation across spectra of different samples
+- Enable direct comparison of spectra from different samples
 - Fit spectra and identify peak positions
 
 ## Methodology
 
-First the samples are visualised individually and then stacked vertically to enable direct comparison of spectra across samples. The spectra are then background subtracted using the `Baselines` function of the `pybaselines` library, followed by smoothing and normalisation using the `savgol_filter` function from the `scipy` library. Finally the spectra are fit using the `curve_fit` function, and the peak positions identified using `find_peaks` from the `scipy` library.
+1. Visualisation
+  - Individual spectra are plotted
+  - Spectra are stacked vertically to facilitate direct comparison across samples
+2. Preprocessing
+  - Background subtraction using the `Baselines` function of the `pybaselines` library
+  - Smoothing and normalisation using the `savgol_filter` function from the `scipy.signal` library
+3. Fitting and Peak Identification
+  - Curve fitting using the `curve_fit` function from the `scipy.optimize` library
+  - Peak detection using the `find_peaks` function from the `scipy.signal` library
 
 ## Results
 
-![alt text](https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png)
-
+__Example Fitted Raman Spectra__
 <img src="https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png" alt="Fitted Spectra" width="400" height="300">
 
+## Future Directions
 
+The python code developed in this project for the 2024 KRICT ChemDX Hackathon successfully provides an effective visualisation and analysis tool for Raman spectra. Future improvements could include:
+- Expanding the analysis to additional Raman datasets
+- Extending functionality to other material characterisation techniques, such as:
+    - X-Ray Diffraction (XRD)
+    - Infrared (IR) Spectroscopy
 
-Code produced for Raman spectrum visulaisation and analysis contained in the Functions.pynb file. 
+## Code Structure
 
-Backgroud_Fit - includes the workings for background fits for a single dataset to demostrate the developmet of the functions. 
-KRICT2024_Hackathon_Gaussian - includes the workings for constructing the peak finding and Gaussian fitting functions as well as integrated intensities. 
-Loop - loops the Gaussian fit through multiple datasets
-Functions - the final notebook is the full code, with both functions and loops integrated to allow multiple datasets to be visualised and analysed and can be adapted accordingly. 
+📂 **Files & Notebooks**  
+
+- **`Functions.ipynb`** – Main script for Raman spectra visualization and analysis.  
+- **`Background_Fit.ipynb`** – Development of background subtraction for a single spectrum.  
+- **`KRICT2024_Hackathon_Gaussian.ipynb`** – Peak finding, Gaussian fitting, and integrated intensities.  
+- **`Loop.ipynb`** – Iterates Gaussian fitting through multiple datasets.  
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon.git
+2. Navigate to the project directory:
