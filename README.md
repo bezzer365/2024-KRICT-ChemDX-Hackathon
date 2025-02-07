@@ -13,7 +13,7 @@ Material Science and Engineering Department, University of Sheffield, UK
 
 ## Available Data
 
-The data is provided in the form of an .xlsx file [file](\intensity_data.xlsx)
+The data is provided in the form of an .xlsx file `intensity_data.xlsx`
 
 
 
