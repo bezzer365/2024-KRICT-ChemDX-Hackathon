@@ -38,7 +38,7 @@ This project aims to
 
 ## Results
 
-__Example Fitted Raman Spectra__
+📌__Example Fitted Raman Spectra__
 <img src="https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png" alt="Fitted Spectra" width="400" height="300">
 
 ## Future Directions
@@ -53,7 +53,7 @@ The python code developed in this project for the 2024 KRICT ChemDX Hackathon su
 
 📂 **Files & Notebooks**  
 
-- **`Functions.ipynb`** – Main script for Raman spectra visualization and analysis.  
+- **`Functions.ipynb`** – Main script for Raman spectra visualisation and analysis.  
 - **`Background_Fit.ipynb`** – Development of background subtraction for a single spectrum.  
 - **`KRICT2024_Hackathon_Gaussian.ipynb`** – Peak finding, Gaussian fitting, and integrated intensities.  
 - **`Loop.ipynb`** – Iterates Gaussian fitting through multiple datasets.  
@@ -66,3 +66,9 @@ The python code developed in this project for the 2024 KRICT ChemDX Hackathon su
    ```bash
    git clone https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon.git
 2. Navigate to the project directory:
+   ```bash
+   cd 2024-KRICT-ChemDX-Hackathon
+
+## Useage
+
+Open Jupyter Notebook or Google Collab and follow the instructions of `Functions.ipynb`. The other notebooks are optional and provide an insight into the iterative development of the tools.
