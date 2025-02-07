@@ -27,14 +27,14 @@ This project aims to
 ## Methodology
 
 1. Visualisation
-  - Individual spectra are plotted
-  - Spectra are stacked vertically to facilitate direct comparison across samples
+    - Individual spectra are plotted
+    - Spectra are stacked vertically to facilitate direct comparison across samples
 2. Preprocessing
-  - Background subtraction using the `Baselines` function of the `pybaselines` library
-  - Smoothing and normalisation using the `savgol_filter` function from the `scipy.signal` library
+    - Background subtraction using the `Baselines` function of the `pybaselines` library
+    - Smoothing and normalisation using the `savgol_filter` function from the `scipy.signal` library
 3. Fitting and Peak Identification
-  - Curve fitting using the `curve_fit` function from the `scipy.optimize` library
-  - Peak detection using the `find_peaks` function from the `scipy.signal` library
+    - Curve fitting using the `curve_fit` function from the `scipy.optimize` library
+    - Peak detection using the `find_peaks` function from the `scipy.signal` library
 
 ## Results
 
