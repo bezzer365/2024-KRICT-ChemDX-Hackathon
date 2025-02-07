@@ -39,6 +39,7 @@ This project aims to
 ## Results
 
 📌 __Example Fitted Raman Spectra__
+
 <img src="https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png" alt="Fitted Spectra" width="400" height="300">
 
 ## Future Directions
