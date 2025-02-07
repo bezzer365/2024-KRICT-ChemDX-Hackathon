@@ -19,7 +19,7 @@ The data is provided in the form of an .xlsx file `intensity_data.xlsx`, where t
 
 - Visualise indivdual spectra
 - Enable direct comparison by visualisation across spectra of different samples
-- Fit spectra to identify peak positions
+- Fit spectra and identify peak positions
 
 ## Methodology
 
@@ -27,7 +27,7 @@ First the samples are visualised individually and then stacked vertically to ena
 
 ## Results
 
-
+![alt text](https://github.com/bezzer365/2024-KRICT-ChemDX-Hackathon/blob/main/spectrum_fit.png)
 
 
 
